@@ -1,0 +1,3 @@
+class BasketballScoreScraper::Scraper
+
+end
