@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+
+require "basketball_score_scraper_env"
