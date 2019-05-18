@@ -1,43 +1,44 @@
 # BasketballScoreScraper
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/basketball_score_scraper`. To experiment with that code, run `bin/console` for an interactive prompt.
+I created this gem to learn nokogiri and web scraping while at Flatiron School. This gem comes with an executable, that when executed, will print scores of all the NBA games that happened last night to your terminal. Scraping is done from basketball-reference.com.
 
-TODO: Delete this and the text above, and describe your gem
+This is a perfect utility gem for someone who spends a lot of time in front of the terminal and who is also an avid basketball fan that wants to know last night's score without opening a web browser.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Download the source code. An executable called 'basketball_score_scraper' inside bin directory can be executed directly.
 
-```ruby
-gem 'basketball_score_scraper'
+To build a gem, run the following command in the root directory of this application:
+
+```console
+gem build basketball_score_scraper.gemspec
 ```
 
-And then execute:
+This will build a ruby gem for you which you can install. To install this gem, do:
 
-    $ bundle
+```console
+gem install basketball_score_scraper-0.1.0.gem
+```
 
-Or install it yourself as:
-
-    $ gem install basketball_score_scraper
+This will install an executable called basketball_score_scraper in your machine. You should be able to execute this executable from anywhere now.
 
 ## Usage
 
-TODO: Write usage instructions here
+Once installed, you can launch the executable from your shell:
 
-## Development
+Example usage:
+```console
+~> basketball_score_scraper
 
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+                   1  2  3  4 Final
+                  -- -- -- -- -----
+Milwaukee       : 35 29 31 30   125
+Toronto         : 21 18 39 25   103
+Top Performers : K. Leonard-TOR (31 points), G. Antetokounmpo-MIL (17 rebounds)
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/basketball_score_scraper. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+~>
+```
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-## Code of Conduct
-
-Everyone interacting in the BasketballScoreScraper project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/basketball_score_scraper/blob/master/CODE_OF_CONDUCT.md).
