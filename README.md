@@ -1,7 +1,6 @@
 # BasketballScoreScraper
 
-I created this gem to learn nokogiri and web scraping while at Flatiron School. This gem comes with an executable, that when executed, will print scores of all the NBA games that happened last night to your terminal. Scraping is done from basketball-reference.com.
-
+This gem uses nokogiri to web scrap NBA game scores from last night from basketball-reference.com
 This is a perfect utility gem for someone who spends a lot of time in front of the terminal and who is also an avid basketball fan that wants to know last night's score without opening a web browser.
 
 ## Installation
